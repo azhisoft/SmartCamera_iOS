@@ -1,0 +1,6 @@
+framework module SmartCamera {
+  umbrella header "SmartCamera.h"
+
+  export *
+  module * { export * }
+}
