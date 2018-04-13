@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec "iphoneos" do |ss1|
-    ss1.vendored_framework = "releases/Library/SmartCamera.framework"
+    ss1.vendored_framework = "releases/Library-Universal/SmartCamera.framework"
   end
 
   s.frameworks = ["UIKit", "Foundation"]
