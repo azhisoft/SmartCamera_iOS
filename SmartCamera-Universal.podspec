@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.subspec "iphoneos" do |ss1|
+  s.subspec "universal" do |ss1|
     ss1.vendored_framework = "releases/Library-Universal/SmartCamera.framework"
   end
 
