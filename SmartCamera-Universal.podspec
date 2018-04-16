@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SmartCamera.podspec' to ensure this is a
+# Be sure to run `pod lib lint SmartCamera-Universal.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 #
 # Any lines starting with a # are optional, but encouraged
@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SmartCamera"
+  s.name             = "SmartCamera-Universal"
   s.version          = "1.2.2"
   s.summary          = "SmartCamera for iOS"
   s.homepage         = "https://github.com/azhisoft/SmartCamera_iOS"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.subspec "universal" do |ss1|
+  s.subspec "iphoneos" do |ss1|
     ss1.vendored_framework = "releases/Library-Universal/SmartCamera.framework"
   end
 
