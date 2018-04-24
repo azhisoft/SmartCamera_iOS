@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SmartCamera"
-  s.version          = "1.2.3"
+  s.version          = "1.2.4"
   s.summary          = "SmartCamera for iOS"
   s.homepage         = "https://github.com/azhisoft/SmartCamera_iOS"
   s.license          = 'Apache License, Version 2.0'
