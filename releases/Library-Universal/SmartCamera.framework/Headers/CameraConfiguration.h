@@ -11,6 +11,7 @@
 #import "VideoConfig.h"
 #import "RtmpConfig.h"
 #import "RtspConfig.h"
+#import "OverlayConfig.h"
 
 #ifndef CameraConfiguration_h
 #define CameraConfiguration_h
@@ -22,6 +23,9 @@
 
 - (NSString *)getName;
 - (BOOL)setName:(NSString *)name;
+
+- (OverlayConfig *)getOverlay;
+- (BOOL)setOverlay:(OverlayConfig *)config;
 
 - (NetworkConfig *)getNetwork;
 - (BOOL)setNetwork:(NetworkConfig *)config;
